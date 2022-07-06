@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tip Calculator</title>
+    <script src="jquery.js"></script>
+    <link rel="stylesheet" href="main.css">
+</head>
+
+<body>
+<main>
+    <fieldset>
+    <h1 id="h1">Tip Calculator</h1>
+<div class="container" id="first-container">
+    <label for="bill amount">Bill Amount: <strong>$</strong></label>
+    <input inputmode="numeric" name="bill amount" id="bill-amt">
+</div>
+
+<div class="container" id="second-container">
+    <label for="tip percentage">Tip Percentage: </label>
+    <input inputmode="numeric" name="tip percentage" id="tip-perc"><strong> %</strong>
+</div>
+
+<div class="container">
+    <label for="tip amount">Tip Amount: </label>
+    <span id="tip-amt"></span>
+</div>
+
+<div class="container">
+    <label for="total bill">Total Bill: </label>
+    <span id="total-bill"></span>
+</div>
+
+<button id="calculate">Calculate</button>
+<button id="clear">Clear</button>
+</fieldset>
+
+<div id="img-div">
+    <img src="tip.jpg" alt="Tip">
+</div>
+</main>
+
+<footer>
+    <p>
+        Tomás Maldonado 2022
+    </p>
+</footer>
+
+<script src="tipcalc.js"></script>
+</body>
+</html>
